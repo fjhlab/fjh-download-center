@@ -11,7 +11,7 @@
     - [ESP32 AI BOX](/boards/esp32-ai-box.md)
   - [Linux 开发板](/boards/linux.md)
 - 正点原子智能仪表工具
-  - [智能仪表](/tools/multimeter.md)
+  - [智能仪表](/tools/meters.md)
     - [数字万用表](/tools/multimeter.md)
     - [电桥镊子](/tools/lcr-tweezers.md)
     - [智能焊铁/焊台](/tools/soldering.md)
