@@ -16,6 +16,12 @@
     - [电桥镊子](/tools/lcr-tweezers.md)
     - [智能焊铁/焊台](/tools/soldering.md)
     - [数控电源](/tools/power-supply.md)
+- 电机驱动&电动工具
+  - [电机驱动](/motor/motor_ctl.md)
+    - [PDxxS1](/motor/pdxxs1.md)
+  - [电动工具](/motor/power_tool.md)
+    - [螺丝刀](/motor/esd.md)
+    - [电磨笔](/motor/egp.md)
 - 维护说明
   - [如何新增资料](/guide/quick-start.md)
   - [如何维护目录](/guide/sidebar.md)
