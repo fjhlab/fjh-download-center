@@ -5,7 +5,7 @@
 本页面用于整理 STM32F103-mini 开发板 V4 的全部资料，包含开发板手册、原理图、例程源码、视频教程和配套工具。
 
 <p align="center">
-  <img src="../assets/images/stm32f103-mini.png" alt="STM32F103-mini 开发板 V4" width="465">
+  <img src="assets/images/stm32f103-mini.png" alt="STM32F103-mini 开发板 V4" width="465">
 </p>
 
 ## 资料清单
