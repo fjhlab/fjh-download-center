@@ -1,0 +1,230 @@
+:root {
+  --theme-color: #0f82c3;
+  --sidebar-width: 300px;
+  --content-max-width: 980px;
+}
+
+body {
+  font-size: 15px;
+  color: #333;
+}
+
+.app-name {
+  margin: 0;
+  padding: 22px 18px 18px;
+  background: #2f8bc4;
+  color: #fff;
+}
+
+.app-name-link,
+.app-name-link:hover {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.brand-mark {
+  display: block;
+  font-size: 25px;
+  line-height: 1.4;
+}
+
+.app-name small {
+  display: block;
+  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.sidebar {
+  background: #302d2d;
+  border-right: 0;
+  color: #fff;
+}
+
+.sidebar-toggle {
+  background: transparent;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.sidebar-nav ul,
+.sidebar-nav li {
+  list-style: none;
+}
+
+.sidebar-nav li::before,
+.sidebar-nav .folder::before,
+.sidebar-nav .file::before,
+.sidebar-nav .app-sub-sidebar li::before {
+  display: none !important;
+  content: none !important;
+}
+
+.sidebar ul li.active > a,
+.sidebar ul li a:hover {
+  color: #31a7e6;
+  text-decoration: none;
+}
+
+.sidebar-nav > ul > li > p {
+  color: #23a0df;
+  font-weight: 700;
+  margin: 18px 0 8px;
+  padding: 8px 24px;
+  font-size: 14px;
+}
+
+.sidebar-nav > ul > li > p:hover {
+  background: #3a3737;
+}
+
+.sidebar-nav > ul > li.active > p,
+.sidebar-nav > ul > li.open > p {
+  background: #3a3737;
+  color: #23a0df;
+}
+
+.sidebar-nav > ul > li > ul {
+  display: block !important;
+  margin: 0;
+}
+
+.sidebar-nav > ul > li > ul > li > a {
+  color: #fff;
+  font-weight: 600;
+  padding: 6px 28px;
+}
+
+.sidebar-nav > ul > li > ul > li.active > a,
+.sidebar-nav > ul > li > ul > li.is-expanded > a,
+.sidebar-nav > ul > li > ul > li > a:hover {
+  background: #343131;
+  color: #23a0df;
+}
+
+.sidebar-nav > ul > li > ul > li:has(> ul) > a {
+  cursor: pointer;
+}
+
+.sidebar-nav > ul > li > ul > li > ul {
+  background: #3a3737;
+  display: none;
+  margin: 0;
+  padding: 6px 0 8px;
+}
+
+.sidebar-nav > ul > li > ul > li.is-expanded > ul {
+  display: block;
+}
+
+.sidebar-nav > ul > li > ul > li > ul a {
+  color: #f4f7fb;
+  padding: 6px 38px;
+}
+
+.sidebar-nav > ul > li > ul > li > ul li.active > a,
+.sidebar-nav > ul > li > ul > li > ul a:hover {
+  color: #0f82c3;
+  background: #444040;
+}
+
+.sidebar-nav .folder {
+  cursor: pointer;
+}
+
+.sidebar-nav a,
+.sidebar-nav p {
+  border-left: 3px solid transparent;
+  box-sizing: border-box;
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav li.active > a,
+.sidebar-nav li.open > a {
+  border-left-color: #23a0df;
+}
+
+.search {
+  background: #2f8bc4;
+  border-bottom: 0;
+  margin: 0;
+  padding: 0 14px 16px;
+}
+
+.search input {
+  background: #fff;
+  border: 0;
+  border-radius: 18px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.search .matching-post {
+  background: #fff;
+  border-radius: 6px;
+  color: #333;
+  margin-top: 10px;
+  padding: 8px;
+}
+
+.search a {
+  color: #0f82c3;
+}
+
+.markdown-section {
+  max-width: var(--content-max-width);
+  padding: 34px 42px 60px;
+}
+
+.markdown-section h1 {
+  border-bottom: 1px solid #e8edf3;
+  padding-bottom: 14px;
+}
+
+.markdown-section h2 {
+  margin-top: 34px;
+}
+
+.markdown-section table {
+  display: table;
+  width: 100%;
+}
+
+.markdown-section code {
+  border-radius: 4px;
+}
+
+.download-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin: 18px 0 26px;
+}
+
+.download-card {
+  border: 1px solid #e4eaf0;
+  border-radius: 6px;
+  padding: 14px 16px;
+}
+
+.download-card strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.download-card a {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+@media (max-width: 768px) {
+  .markdown-section {
+    padding: 24px 18px 48px;
+  }
+}
