@@ -34,7 +34,7 @@ python -m http.server 3000
 例如新增 `products/module.md`，再到 `_sidebar.md` 加一行：
 
 ```markdown
-- [模块资料](products/module.md)
+- [模块资料](/products/module.md)
 ```
 
 保存后刷新页面即可。

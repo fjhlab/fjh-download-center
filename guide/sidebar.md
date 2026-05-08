@@ -6,9 +6,9 @@
 
 ```markdown
 - 总分类名称
-  - [板子分类](boards/stm32.md)
-    - [具体型号 A](boards/model-a.md)
-    - [具体型号 B](boards/model-b.md)
+  - [板子分类](/boards/stm32.md)
+    - [具体型号 A](/boards/model-a.md)
+    - [具体型号 B](/boards/model-b.md)
 ```
 
 第一层是蓝色总分类，第二层是可以点击展开的分类，第三层是具体资料页面。

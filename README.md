@@ -4,26 +4,26 @@
 
 ## 关于正点原子
 
-- [公司简介](about/company.md)
-- [联系方式](about/contact.md)
+- [公司简介](/about/company.md)
+- [联系方式](/about/contact.md)
 
 ## 正点原子开发板&核心板
 
-- [正点原子 STM32 开发板](boards/stm32.md)
-  - [STM32F103-mini 开发板 V4](boards/stm32f103-mini.md)
-  - [STM32F407 探索者开发板 V3](boards/stm32f407-explorer.md)
-  - [STM32H743 阿波罗开发板 V2](boards/stm32h743-apollo.md)
-- [正点原子 ESP32 开发板](boards/esp32.md)
-  - [ESP32S3 开发板](boards/esp32s3.md)
-  - [ESP32 AI BOX](boards/esp32-ai-box.md)
-- [正点原子 Linux 开发板](boards/linux.md)
+- [正点原子 STM32 开发板](/boards/stm32.md)
+  - [STM32F103-mini 开发板 V4](/boards/stm32f103-mini.md)
+  - [STM32F407 探索者开发板 V3](/boards/stm32f407-explorer.md)
+  - [STM32H743 阿波罗开发板 V2](/boards/stm32h743-apollo.md)
+- [正点原子 ESP32 开发板](/boards/esp32.md)
+  - [ESP32S3 开发板](/boards/esp32s3.md)
+  - [ESP32 AI BOX](/boards/esp32-ai-box.md)
+- [正点原子 Linux 开发板](/boards/linux.md)
 
 ## 正点原子智能仪表工具
 
-- [数字万用表](tools/multimeter.md)
-- [电桥镊子](tools/lcr-tweezers.md)
-- [智能焊铁/焊台](tools/soldering.md)
-- [数控电源](tools/power-supply.md)
+- [数字万用表](/tools/multimeter.md)
+- [电桥镊子](/tools/lcr-tweezers.md)
+- [智能焊铁/焊台](/tools/soldering.md)
+- [数控电源](/tools/power-supply.md)
 
 ## 使用说明
 
