@@ -101,9 +101,13 @@ body {
   padding: 6px 28px;
 }
 
-.sidebar-nav > ul > li > ul > li.active > a,
-.sidebar-nav > ul > li > ul > li.is-expanded > a,
 .sidebar-nav > ul > li > ul > li > a:hover {
+  background: #343131;
+  color: #23a0df;
+}
+
+.sidebar-nav > ul > li > ul > li.has-children.is-current-group > a,
+.sidebar-nav > ul > li > ul > li.active:not(.has-children) > a {
   background: #343131;
   color: #23a0df;
 }
@@ -145,8 +149,8 @@ body {
 }
 
 .sidebar-nav a:hover,
-.sidebar-nav li.active > a,
-.sidebar-nav li.open > a {
+.sidebar-nav li.active:not(.has-children) > a,
+.sidebar-nav li.has-children.is-current-group > a {
   border-left-color: #23a0df;
 }
 
